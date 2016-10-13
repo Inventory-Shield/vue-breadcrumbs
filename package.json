@@ -1,14 +1,13 @@
 {
-  "name": "vue-breadcrumbs",
-  "version": "0.3.1",
-  "description": "Breadcrumbs for vue.js",
+  "name": "vue2-breadcrumbs",
+  "version": "2.0.0",
+  "description": "Breadcrumbs for vue.js fork from samturrell/vue-breadcrumbs",
   "author": {
-    "name": "Sam Turrell",
-    "email": "sam@samturrell.co.uk",
-    "url": "http://samturrell.co.uk"
+    "name": "Casper Lai",
+    "email": "casper.lai@voh-design.com"
   },
   "bugs": {
-    "url": "https://github.com/samturrell/vue-breadcrumbs/issues"
+    "url": "https://github.com/casperlaitw/vue-breadcrumbs/issues"
   },
   "devDependencies": {
     "babel-core": "^6.2.1",
@@ -47,7 +46,7 @@
     "dist/vue-breadcrumbs.common.js",
     "src"
   ],
-  "homepage": "https://github.com/samturrell/vue-breadcrumbs#readme",
+  "homepage": "https://github.com/casperlaitw/vue-breadcrumbs#readme",
   "jsnext:main": "src/index.js",
   "keywords": [
     "breadcrumbs",
@@ -59,7 +58,7 @@
   "main": "dist/vue-breadcrumbs.common.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samturrell/vue-breadcrumbs.git"
+    "url": "git+https://github.com/casperlaitw/vue-breadcrumbs.git"
   },
   "scripts": {
     "build": "node config/build.js",
