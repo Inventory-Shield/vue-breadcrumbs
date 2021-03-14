@@ -16,9 +16,9 @@
       $breadcrumbs: {
         get: function get() {
           var crumbs = [];
-          for (var i = 0; i < config.globalProperties.$route.matched.length; i++) {
-            if (config.globalProperties.$route.matched[i].meta && config.globalProperties.$route.matched[i].meta.breadcrumb) {
-              crumbs.push(config.globalProperties.$route.matched[i]);
+          for (var i = 0; i < Vue.config.globalProperties.$route.matched.length; i++) {
+            if (Vue.config.globalProperties.$route.matched[i].meta && Vue.config.globalProperties.$route.matched[i].meta.breadcrumb) {
+              crumbs.push(Vue.config.globalProperties.$route.matched[i]);
             }
           }
           return crumbs;
