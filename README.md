@@ -1,4 +1,4 @@
-# vue2-breadcrumbs
+# vue3-breadcrumbs
 Fork from [samturrell/vue-breadcrumbs](https://github.com/samturrell/vue-breadcrumbs)
 
 Vue breadcrumbs builds on the official vue-router package to provide simple breadcrumbs.
@@ -18,11 +18,11 @@ Vue.use(VueBreadcrumbs)
 or with browserify/bundler:
 
 ```sh
-$ npm install vue2-breadcrumbs
+$ npm install vue3-breadcrumbs
 ```
 
 ```js
-var VueBreadcrumbs = require('vue2-breadcrumbs')
+var VueBreadcrumbs = require('vue3-breadcrumbs')
 
 Vue.use(VueBreadcrumbs)
 ```

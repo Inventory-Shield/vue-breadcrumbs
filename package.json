@@ -1,5 +1,5 @@
 {
-  "name": "vue2-breadcrumbs",
+  "name": "vue3-breadcrumbs",
   "version": "2.0.0",
   "description": "Breadcrumbs for vue.js fork from samturrell/vue-breadcrumbs",
   "author": {
@@ -36,7 +36,7 @@
     "rollup-plugin-babel": "^2.2.0",
     "rollup-plugin-replace": "^1.1.0",
     "uglify-js": "^2.6.1",
-    "vue": "^2.0.0",
+    "vue": "^3.0.7",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
