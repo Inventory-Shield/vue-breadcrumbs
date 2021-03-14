@@ -1,5 +1,5 @@
 /*!
- * vue3-breadcrumbs v2.0.0
+ * vue3-breadcrumbs v3.0.0
  * (c) 2021 Casper Lai
  * Released under the MIT License.
  */
@@ -31,7 +31,7 @@
     });
   }
 
-  plugin.version = '2.0.0';
+  plugin.version = '3.0.0';
 
   return plugin;
 

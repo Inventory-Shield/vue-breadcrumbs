@@ -1,6 +1,6 @@
 {
   "name": "vue3-breadcrumbs",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Breadcrumbs for vue.js fork from samturrell/vue-breadcrumbs",
   "author": {
     "name": "Casper Lai",
@@ -41,9 +41,10 @@
     "webpack-dev-server": "^1.14.0"
   },
   "files": [
-    "dist/vue-breadcrumbs.js",
-    "dist/vue-breadcrumbs.min.js",
-    "dist/vue-breadcrumbs.common.js",
+    "dist/vue3-breadcrumbs.js",
+    "dist/vue3-breadcrumbs.min.js",
+    "dist/vue3-breadcrumbs.common.js",
+    "dist/vue3-breadcrumbs.d.ts",
     "src"
   ],
   "homepage": "https://github.com/casperlaitw/vue-breadcrumbs#readme",
@@ -55,7 +56,8 @@
     "vuejs"
   ],
   "license": "MIT",
-  "main": "dist/vue-breadcrumbs.common.js",
+  "main": "dist/vue3-breadcrumbs.common.js",
+  "types": "dist/vue3-breadcrumbs.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/casperlaitw/vue-breadcrumbs.git"
