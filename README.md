@@ -1,14 +1,14 @@
 # vue3-breadcrumbs
-Fork from [samturrell/vue-breadcrumbs](https://github.com/samturrell/vue-breadcrumbs)
+Fork from [CasperLaiTW/vue-breadcrumbs](https://github.com/CasperLaiTW/vue-breadcrumbs)
 
 Vue breadcrumbs builds on the official vue-router package to provide simple breadcrumbs.
 
-Support Vue 2.0
+Support Vue 3.0
 
 # Usage
 
 ```html
-<script src="../dist/vue-breadcrumbs.min.js"></script>
+<script src="../dist/vue3-breadcrumbs.min.js"></script>
 ```
 
 ```js
@@ -21,16 +21,18 @@ or with browserify/bundler:
 $ npm install vue3-breadcrumbs
 ```
 
-```js
-var VueBreadcrumbs = require('vue3-breadcrumbs')
+```ts
+import { createApp } from 'vue';
+import VueBreadcrumbs from 'vue3-breadcrumbs';
 
-Vue.use(VueBreadcrumbs)
+const app = createApp(...);
+app.use(VueBreadcrumbs)
 ```
 
 Define the matching breadcrumb text in your vue-router routes as the `breadcrumb:` property of a route or subRoute, e.g.:
 
-```js
-new VueRouter({
+```ts
+createRouter({
   {
     path: '/',
     component: Page,
